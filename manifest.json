@@ -1,0 +1,21 @@
+{
+  "name": "Stop Mirror group autoplay",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Stop videos from autoplaying on Mirror group websites",
+  "homepage_url": "http://twitter.com/hintofsarcasm",
+  "background": {
+    "scripts": [
+      "jquery-3.2.1.slim.min.js", "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Stop autoplaying"
+  },
+  "permissions": [
+    "http://www.walesonline.co.uk/*",
+    "http://www.mirror.co.uk/*",
+    "tabs"
+  ]
+}
